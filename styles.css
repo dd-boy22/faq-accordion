@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');   
+   
+   .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+        font-family: "Work Sans", sans-serif;
+        overflow: hidden;
+}
+
+.bg-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container-faq {
+    width: 50%;
+    max-width: 900px;
+    min-width: 300px;
+    height: auto;
+    padding: 0 20px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    bottom: 90px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 25px;
+}
+
+.logo h1 {
+    padding: 20px 0;
+    margin: 0 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.questions {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.visible-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+     padding: 15px 5px;
+}
+
+.visible-panel h5 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.visible-panel h5:hover {
+    color: hsl(292, 16%, 49%);
+}
+
+.visible-panel img {
+    margin-right: 10px;
+    width: 25px; 
+    cursor: pointer;
+}
+
+.toggle-panel {
+    padding: 0 15px;
+    /* height: 0px;
+    opacity: 0;
+     */
+}
+
+.toggle-panel p {
+ line-height: 1.5;
+ color: hsl(292, 16%, 49%);
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
