@@ -1,5 +1,6 @@
 const answers = document.querySelectorAll(".toggle-panel");
-const plusIcons = document.querySelectorAll(".plus-icon");
+const plusIcons = document.querySelectorAll(".visible-panel");
+const plusIcon = document.querySelectorAll(".plus-icon");
 
 
 for (let i = 0; i < plusIcons.length; i++) {
@@ -8,10 +9,10 @@ for (let i = 0; i < plusIcons.length; i++) {
 
     if(answers[i].classList.contains('hidden')) {
           answers[i].classList.remove('hidden');
-    plusIcons[i].src = "/assets/images/icon-minus.svg";
+    plusIcon[i].src = "/assets/images/icon-minus.svg";
     } else {
           answers[i].classList.add('hidden');
-            plusIcons[i].src = "/assets/images/icon-plus.svg";
+            plusIcon[i].src = "/assets/images/icon-plus.svg";
     }
 
 
